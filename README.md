@@ -1,5 +1,3 @@
-HMX's Blog
-===
 
 **Welcome to HMX's Blog!~**
 
@@ -19,7 +17,7 @@ HMX's Blog
 <br><br><br><br><br>
 
 ---
-<h2 id="course"><strong>学过的科目及其心得</strong></h2>
+<h2 id="course"><em>学过的科目及其心得</em></h2>
 
 
 
@@ -31,7 +29,7 @@ HMX's Blog
 
 ---
 
-<h2 id="article"><strong>奇怪的教程</strong></h2>
+<h2 id="article"><em>奇怪的教程</em></h2>
 
 
 
@@ -42,7 +40,7 @@ HMX's Blog
 <br><br><br><br><br>
 
 
-<h2 id="mycode"><strong>项目</strong></h2>
+<h2 id="mycode"><em>项目</em></h2>
 
 ### **C++**
 
@@ -70,6 +68,6 @@ HMX's Blog
 
 # Contact Me
 
-[戳我](https://github.com/jikaiwen)
+戳下面的头像。
 
-<a href="./inner/README.md"> <font color="pink">里</font> </a>
+<a href="/inner"> <font color="white">里</font> </a>
