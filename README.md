@@ -1,37 +1,75 @@
-## Welcome to GitHub Pages
+HMX's Blog
+===
 
-You can use the [editor on GitHub](https://github.com/jikaiwen/jikaiwen.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**Welcome to HMX's Blog!~**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+这个博客大概会涉及许多计算机相关的学科和心得吧，大概。
 
-### Markdown
+说不定也有其他的奇奇怪怪的东西。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+<h1 id="index"> 索引 </h1>
 
-# Header 1
-## Header 2
-### Header 3
+* [学科心得](#course)
 
-- Bulleted
-- List
+* [尝试写的教程](#article)
 
-1. Numbered
-2. List
+* [我的部分代码](#mycode)
 
-**Bold** and _Italic_ and `Code` text
+<br><br><br><br><br>
 
-[Link](url) and ![Image](src)
-```
+---
+<h2 id="course"><strong>学过的科目及其心得</strong></h2>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jikaiwen/jikaiwen.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[回到索引](#index)
+
+<br><br><br><br><br>
+
+---
+
+<h2 id="article"><strong>奇怪的教程</strong></h2>
+
+
+
+[回到索引](#index)
+
+---
+
+<br><br><br><br><br>
+
+
+<h2 id="mycode"><strong>项目</strong></h2>
+
+### **C++**
+
+### **Verilog**
+
+* [简易的打地鼠](#)
+
+* [一个有各种bug的MIPS流水线](#)
+
+    就中断的时候有问题。而且似乎因为写的的时钟频率太快，fpga没法运行。
+
+### **Python**
+
+* [基于pygame实现的简易版东方弹幕射击类游戏](https://github.com/jikaiwen/pygame-touhou)
+
+    因为素材权限可能有问题，所以只放上了原创的代码。
+
+[回到索引](#index)
+
+
+
+---
+
+<br><br><br><br><br>
+
+# Contact Me
+
+[戳我](https://github.com/jikaiwen)
+
+<a href="./inner/README.md"> <font color="pink">里</font> </a>
