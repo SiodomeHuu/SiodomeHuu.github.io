@@ -95,7 +95,7 @@
 <script>
 	function exec() {
 		tp=document.getElementById("inputstr").value;
-		_secret(tp);
+		_exec(tp);
 	}
 </script>
 
@@ -103,7 +103,6 @@
 
 ---
 
-<br><br><br><br>
 
 <a href="/inner"> <font color="white">里</font> </a>
 
