@@ -1,0 +1,38 @@
+Net "clka" LOC = V10;
+Net "rst_n" LOC = T5;
+//Net "rst_n" CLOCK_DEDICATED_ROUTE = FALSE;
+
+Net "sw<0>" LOC = T10;
+Net "sw<1>" LOC = T9;
+Net "sw<2>" LOC = V9;
+Net "sw<3>" LOC = M8;
+Net "sw<4>" LOC = N8;
+Net "sw<5>" LOC = U8;
+Net "sw<6>" LOC = V8;
+//Net "sw<7>" LOC = T5;
+
+Net "led<0>" LOC = U16;
+Net "led<1>" LOC = V16;
+Net "led<2>" LOC = U15;
+Net "led<3>" LOC = V15;
+Net "led<4>" LOC = M11;
+Net "led<5>" LOC = N11;
+Net "led<6>" LOC = R11;
+Net "led<7>" LOC = T11;
+
+Net "buttonpress" LOC = C9;
+
+Net "smg<7>" LOC = T17;
+Net "smg<6>" LOC = T18;
+Net "smg<5>" LOC = U17;
+Net "smg<4>" LOC = U18;
+Net "smg<3>" LOC = M14;
+Net "smg<2>" LOC = N14;
+Net "smg<1>" LOC = L14;
+Net "smg<0>" LOC = M13;
+
+
+Net "sel<0>" LOC = N16;
+Net "sel<1>" LOC = N15;
+Net "sel<2>" LOC = P18;
+Net "sel<3>" LOC = P17;

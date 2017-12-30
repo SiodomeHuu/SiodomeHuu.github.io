@@ -17,13 +17,32 @@
 <br><br><br><br><br>
 
 ---
+
 <h2 id="course"><em>学过的科目及其心得</em></h2>
 
+<!--
 
+[数字电路与模拟电路](#)
 
+[计算机系统概论](#)
+
+[计算机系统详解(csapp)](#)
+
+[编译原理](#)
+
+[复变函数](#)
+
+[数理方程](#)
+
+[概率论与数理统计](#)
+
+-->
 
 
 [回到索引](#index)
+
+
+---
 
 <br><br><br><br><br>
 
@@ -39,6 +58,7 @@
 
 <br><br><br><br><br>
 
+---
 
 <h2 id="mycode"><em>项目</em></h2>
 
@@ -46,11 +66,11 @@
 
 ### **Verilog**
 
-* [简易的打地鼠](#)
+* [简易的打地鼠](https://github.com/jikaiwen/jikaiwen.github.io/mycode/Whac-A-Mole/)
 
-* [一个有各种bug的MIPS流水线](#)
+* [单周期，多周期，流水线(有Bug)的Mips](https://github.com/jikaiwen/jikaiwen.github.io/mycode/Mips/)
 
-    就中断的时候有问题。而且似乎因为写的的时钟频率太快，fpga没法运行。
+	流水线就中断的时候有问题。另外，因为似乎内部要求的时钟频率太快，fpga没法运行(也就是仿真和烧写结果不一致)。
 
 ### **Python**
 
@@ -61,13 +81,32 @@
 [回到索引](#index)
 
 
+---
+
+神秘对话框
+
+<input type="text" id="inputstr"/>
+<input type="button" value="神秘按钮" onclick="exec()"/>
+
+
+<script type="text/javascript" src="md5.js"></script>
+<script type="text/javascript" src="secret.js"></script>
+
+<script>
+	function exec() {
+		tp=document.getElementById("inputstr").value;
+		_secret(tp);
+	}
+</script>
+
+
 
 ---
 
-<br><br><br><br><br>
+<br><br><br><br>
+
+<a href="/inner"> <font color="white">里</font> </a>
 
 # Contact Me
 
 戳下面的头像。
-
-<a href="/inner"> <font color="white">里</font> </a>
