@@ -85,7 +85,7 @@
 
 神秘对话框
 
-<input type="text" id="inputstr"/>
+<input type="text" id="inputstr" onkeypress="boxKey()"/>
 <input type="button" value="神秘按钮" onclick="exec()"/>
 
 
@@ -93,6 +93,11 @@
 <script type="text/javascript" src="secret.js"></script>
 
 <script>
+	function boxKey() {
+		if(window.event.keyCode==13) {
+			exec();
+		}
+	}
 	function exec() {
 		tp=document.getElementById("inputstr").value;
 		_exec(tp);
