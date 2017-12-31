@@ -20,6 +20,8 @@
 
 <h2 id="course"><em>学过的科目及其心得</em></h2>
 
+[程序设计语言(C语言)](/course/CLanguage.md)
+
 <!--
 
 [数字电路与模拟电路](#)
@@ -66,9 +68,9 @@
 
 ### **Verilog**
 
-* [简易的打地鼠](https://github.com/jikaiwen/jikaiwen.github.io/mycode/Whac-A-Mole/)
+* [简易的打地鼠](https://github.com/jikaiwen/jikaiwen.github.io/tree/master/mycode/Whac-A-Mole/)
 
-* [单周期，多周期，流水线(有Bug)的Mips](https://github.com/jikaiwen/jikaiwen.github.io/mycode/Mips/)
+* [单周期，多周期，流水线(有Bug)的Mips](https://github.com/jikaiwen/jikaiwen.github.io/tree/master/mycode/Mips/)
 
 	流水线就中断的时候有问题。另外，因为似乎内部要求的时钟频率太快，fpga没法运行(也就是仿真和烧写结果不一致)。
 
