@@ -22,7 +22,11 @@
 
 [程序设计语言(C语言)](/course/CLanguage.md)
 
+[随机过程](/course/Randproc.md)
+
 <!--
+
+[算法导论](/course/Algorithm.md)
 
 [数字电路与模拟电路](#)
 
@@ -30,7 +34,7 @@
 
 [计算机系统详解(csapp)](#)
 
-[编译原理](#)
+[编译原理](/course/Compiler.md)
 
 [复变函数](#)
 
