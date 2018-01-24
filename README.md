@@ -24,6 +24,8 @@
 
 [随机过程](/course/Randproc.md)
 
+[算法导论(还在维护)](/course/Algorithm.md)
+
 <!--
 
 [算法导论](/course/Algorithm.md)
