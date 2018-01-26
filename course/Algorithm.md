@@ -56,7 +56,7 @@ g(n)=o(f(n)) n->∞, g(n)/f(n) -> 0
 g(n)=Ω(f(n)) 存在c，n->∞ g(n)>cf(n)
 g(n)=w(f(n)) n->∞, g(n)/f(n) -> ∞
 
-g(n)=θ(f(n)) 存在c1,c2 n->∞ c1*f(n)<g(n)<c2*f(n)
+g(n)=θ(f(n)) 存在c1,c2 n->∞ c1f(n)<g(n)<c2f(n)
 
 说白了，就是你这段程序随着数据量的变化，会执行指令的条数的函数的上下界。
 
@@ -148,7 +148,7 @@ e.g. 对向量长度进行排序，(0,1) (2,2) (1,0)
 		B=[]
 		swap(A,B)
 		i=begin,j=mid;
-		while i<mid and j<end：
+		while i<mid and j<end:
 			if B[i]<=B[j]: A.append(B[i]);i+=1;
 			else: A.append(B[j]);j+=1;
 		while i<mid:

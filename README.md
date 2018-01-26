@@ -26,6 +26,8 @@
 
 [算法导论(还在维护)](/course/Algorithm.md)
 
+[编译原理](/course/Compiler.md)
+
 <!--
 
 [算法导论](/course/Algorithm.md)
@@ -35,8 +37,6 @@
 [计算机系统概论](#)
 
 [计算机系统详解(csapp)](#)
-
-[编译原理](/course/Compiler.md)
 
 [复变函数](#)
 
@@ -71,6 +71,10 @@
 <h2 id="mycode"><em>项目</em></h2>
 
 ### **C++**
+
+### **Java**
+
+* [LC3模拟器及其简易操作系统](https://github.com/jikaiwen/lc3-sti-and-os/)
 
 ### **Verilog**
 
