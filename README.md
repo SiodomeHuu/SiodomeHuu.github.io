@@ -1,7 +1,7 @@
 
 **Welcome to HMX's Blog!~**
 
-铭记：目前已经被挂在耻辱柱上
+<h1><strong>铭记：目前已经被挂在耻辱柱上挂婊</strong></h1>
 
 <script>
 let temp = self.setInterval("clock()",1000);
@@ -29,6 +29,9 @@ function clock() {
 
 <h1 id="warn"> </h1>
 
+<br/>
+<br/>
+<br/>
 
 这个博客大概会涉及许多计算机相关的学科和心得吧，大概。
 
