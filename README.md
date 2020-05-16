@@ -1,6 +1,35 @@
 
 **Welcome to HMX's Blog!~**
 
+铭记：目前已经被挂在耻辱柱上
+
+<script>
+let temp = self.setInterval("clock()",1000);
+function clock() {
+	let prev = new Date();
+	prev.setFullYear(2020);
+	prev.setMonth(4); // May
+	prev.setDate(16);
+	prev.setHours(12);
+	prev.setMinutes(28);
+	prev.setSeconds(0);
+	let now = new Date();
+
+	let timeDiff = (now-prev)/1000;
+	let dayCount = Math.floor(timeDiff / 86400);
+	timeDiff = timeDiff - dayCount * 86400;
+	let hours = Math.floor(timeDiff / 3600);
+	timeDiff = timeDiff - hours * 3600;
+	let minutes = Math.floor(timeDiff / 60);
+	let seconds = timeDiff - minutes * 60;
+
+	document.getElementById("warn").innerText = dayCount + '天' + hours + '时' + minutes + '分' + seconds + '秒'
+}
+</script>
+
+<h1 id="warn"> </h1>
+
+
 这个博客大概会涉及许多计算机相关的学科和心得吧，大概。
 
 说不定也有其他的奇奇怪怪的东西。
