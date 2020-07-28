@@ -1,7 +1,7 @@
 
 **Welcome to HMX's Blog!~**
 
-<h1><strong>铭记：目前已经被挂在耻辱柱上挂婊</strong></h1>
+<h1><strong>铭记：某件事情后的</strong></h1>
 
 <script>
 let temp = self.setInterval("clock()",1000);
