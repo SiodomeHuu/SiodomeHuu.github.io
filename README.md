@@ -29,6 +29,35 @@ function clock() {
 
 <h1 id="warn"> </h1>
 
+
+<h1><strong>铭记：某另件事情后的</strong></h1>
+
+<script>
+let temp2 = self.setInterval("clock2()",1000);
+function clock2() {
+	let prev = new Date();
+	prev.setFullYear(2021);
+	prev.setMonth(5); // June
+	prev.setDate(6);
+	prev.setHours(2);
+	prev.setMinutes(46);
+	prev.setSeconds(0);
+	let now = new Date();
+
+	let timeDiff = (now-prev)/1000;
+	let dayCount = Math.floor(timeDiff / 86400);
+	timeDiff = timeDiff - dayCount * 86400;
+	let hours = Math.floor(timeDiff / 3600);
+	timeDiff = timeDiff - hours * 3600;
+	let minutes = Math.floor(timeDiff / 60);
+	let seconds = timeDiff - minutes * 60;
+
+	document.getElementById("warn2").innerText = dayCount + '天' + hours + '时' + minutes + '分' + seconds + '秒'
+}
+</script>
+
+<h1 id="warn2"> </h1>
+
 <br/>
 <br/>
 <br/>
